@@ -94,7 +94,7 @@ class DepartmentPageState extends State<DepartmentPage> {
                             progress: efficiency / 100,
                             strokeWidth: 14,
                             backgroundColor: Colors.grey[300]!,
-                            progressColor: Colors.green,
+                            progressColor: Color(0xFF29d799)
                           ),
                           const Text(
                             'Production efficiency',
@@ -109,7 +109,7 @@ class DepartmentPageState extends State<DepartmentPage> {
                   ),
                   Container(
                     height: 140,
-                    color: Colors.grey[300],
+                    color: Colors.grey[200],
                     width: 1,
                   ),
                   Expanded(
@@ -148,7 +148,7 @@ class DepartmentPageState extends State<DepartmentPage> {
                       padding: const EdgeInsets.only(top:8),
                       child: Container(
                         height: 50,
-                        color: Colors.grey[300],
+                        color: Colors.grey[200],
                         width: 1,
                       ),
                     ),

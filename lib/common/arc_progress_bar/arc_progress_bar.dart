@@ -8,7 +8,7 @@ class ArcProgressBar extends StatelessWidget {
   final Color progressColor;
 
   ArcProgressBar({
-    @required this.progress,
+    required this.progress,
     this.strokeWidth = 8.0,
     this.backgroundColor = Colors.grey,
     this.progressColor = Colors.green,
